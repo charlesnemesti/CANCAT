@@ -26,7 +26,6 @@
 
   setLink('.js-buy-link', config.buyUrl, '#launch');
   setLink('.js-x-link', config.xUrl, '#top');
-  setLink('.js-tg-link', config.telegramUrl, '#top');
 
   const contractNode = document.querySelector('.js-contract');
   const copyButton = document.querySelector('.contract-copy');
