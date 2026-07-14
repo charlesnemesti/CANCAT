@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#d7ff00">
+  <meta name="description" content="CANCAT — the cat food can hidden on the back shelf, now stepping onchain.">
+  <meta property="og:title" content="CANCAT">
+  <meta property="og:description" content="Born on the shelf. Found by the internet. Coming onchain.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/cancat-hero.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CANCAT">
+  <meta name="twitter:description" content="Born on the shelf. Found by the internet. Coming onchain.">
+  <meta name="twitter:image" content="/assets/cancat-hero.png">
+  <title>CANCAT — Born on the shelf</title>
+
+  <link rel="icon" href="/assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bangers&family=Inter:wght@400;500;600;700;800;900&family=Knewave&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <div class="loader" id="loader" aria-hidden="true">
+    <img src="/assets/cancat-loader.png" alt="">
+    <span>OPENING THE CAN...</span>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="CANCAT home">
+      <img src="/assets/cancat-logo.png" alt="CANCAT logo">
+      <span>CANCAT</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#lore">Lore</a>
+      <a href="#origin">Origin</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#how-to-buy">How to buy</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="social-link js-x-link" href="#" rel="noreferrer" target="_blank" aria-label="X">X</a>
+      <a class="social-link js-tg-link" href="#" rel="noreferrer" target="_blank" aria-label="Telegram">TG</a>
+      <a class="button button-small js-buy-link" href="#launch">BUY <span class="js-symbol">$CANCAT</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">PET FOOD AISLE · AISLE 7, BACK SHELF</p>
+        <h1 id="hero-title">
+          <span class="hero-kicker">THE CAN THEY</span>
+          <span class="hero-main">FOUND</span>
+          <span class="hero-side">ON THE SHELF</span>
+        </h1>
+        <p class="hero-subtitle">STACKED ON A PET STORE SHELF.<br>FOUND BY THE INTERNET.<br>CANNED ONCHAIN.</p>
+        <div class="contract-bar contract-premium" id="launch">
+          <span class="contract-label">OFFICIAL CONTRACT</span>
+
+          <button class="contract-copy" type="button" data-copy="">
+            <span class="contract-address">
+              <small>CA</small>
+              <code class="js-contract">REVEALED AT LAUNCH</code>
+            </span>
+
+            <strong>COPY</strong>
+          </button>
+        </div>
+
+        <div class="hero-buttons">
+          <a class="button button-black js-buy-link" href="#launch"><span>BUY</span><span class="js-symbol">$CANCAT</span></a>
+          <a class="button button-ghost" href="#origin">SEE THE LORE ↓</a>
+        </div>
+      </div>
+
+      <div class="hero-stamp reveal" aria-label="Shelf verified through original discovery posts">
+        <span>ORIGINAL</span>
+        <strong>SHELF LORE</strong>
+        <span>EST. 2019</span>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <img src="/assets/cancat-hero.png" alt="">
+      </div>
+    </section>
+
+    <div class="marquee" aria-label="CANCAT slogans">
+      <div class="marquee-track">
+        <span>CANCAT</span><i>✦</i><span>FROM THE SHELF TO THE CHAIN</span><i>✦</i><span>FOUND BY THE INTERNET</span><i>✦</i><span>BUILT BY THE CREW</span><i>✦</i>
+        <span>CANCAT</span><i>✦</i><span>FROM THE SHELF TO THE CHAIN</span><i>✦</i><span>FOUND BY THE INTERNET</span><i>✦</i><span>BUILT BY THE CREW</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="lore section-dark" id="lore">
+      <div class="section-heading reveal">
+        <span class="section-index">01</span>
+        <p>THE LORE</p>
+        <h2>NOT CREATED.<br><em>DISCOVERED.</em></h2>
+      </div>
+
+      <div class="lore-grid">
+        <div class="lore-portrait reveal">
+          <div class="portrait-ring"></div>
+          <img src="/assets/cancat-loader.png" alt="CANCAT waving">
+          <div class="portrait-label">THE BACK-SHELF CAN</div>
+        </div>
+
+        <div class="lore-copy reveal">
+          <p class="lead">Before $CANCAT had a ticker, it was one tin of premium cat food pushed to the back of aisle 7 — dusty, forgotten, still waving.</p>
+          <p>Every supermarket has that one can. Same blue-grey label. Same dumb grin. Same pink tongue sticking out like it knew something we didn't.</p>
+          <p>Someone posted a photo. The internet lost its mind. That can became $CANCAT — background inventory turned main character energy.</p>
+          <p><strong>Back-shelf can. Main character.</strong></p>
+
+          <aside class="truth-note">
+            <strong>THE LINE WE DON'T CROSS</strong>
+            <span>$CANCAT is an independent community memecoin inspired by internet shelf culture and original artwork. It is not created, endorsed, or sponsored by any pet food brand, retailer, or manufacturer.</span>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="origin" id="origin">
+      <div class="origin-top">
+        <div class="section-heading reveal">
+          <span class="section-index">02</span>
+          <p>THE ORIGIN</p>
+          <h2>THE RECEIPTS<br><em>ARE PUBLIC.</em></h2>
+        </div>
+        <p class="origin-intro reveal">The story is backed by shelf photos, factory lore, and the can that wouldn't stop waving. The back shelf comes first. The production line is earlier context.</p>
+      </div>
+
+      <article class="proof-feature proof-feature-official reveal">
+        <div class="proof-visual">
+          <img
+            src="/assets/origin-shelf-wide.png"
+            alt="Illustrated supermarket pet food aisle with CANCAT on the back shelf"
+            loading="lazy">
+          <span class="proof-badge">SHELF DISCOVERY</span>
+        </div>
+
+        <div class="proof-copy">
+          <div class="proof-meta">
+            <span>ORIGINAL SHELF PHOTO</span>
+            <span>PET FOOD AISLE · 2019</span>
+          </div>
+
+          <h3>THE BACK SHELF<br>WHERE IT ALL STARTED</h3>
+
+          <p>Deep in aisle 7, behind the salmon pâté and the buy-one-get-one tuna stacks, one CAN CAT tin sat waiting. Same label. Same wave. Years before anyone minted a ticker.</p>
+
+          <blockquote>12 FT · 6 SHELVES · AISLE 7, BACK ROW</blockquote>
+
+          <a class="source-button" href="#lore">READ THE FULL LORE ↗</a>
+        </div>
+      </article>
+
+      <div class="proof-grid">
+        <a class="proof-card reveal" href="#lore">
+          <span class="card-number">PROOF 02</span>
+          <div class="card-art card-art-cat"><img src="/assets/origin-can-closeup.png" alt="Close-up of the original CANCAT tin on the shelf" loading="lazy"></div>
+          <div class="card-body">
+            <div class="proof-meta"><span>CLOSE-UP</span><span>AISLE 7, BACK SHELF</span></div>
+            <h3>THE BACK-SHELF CAN</h3>
+            <p>The exact tin from the viral post — blue-grey body, pink label, tongue out, one paw raised like a lucky cat that never got bought.</p>
+            <strong>VIEW THE PROOF ↗</strong>
+          </div>
+        </a>
+
+        <a class="proof-card reveal" href="#lore">
+          <span class="card-number">PROOF 03</span>
+          <div class="card-art card-art-mural"><img src="/assets/origin-factory-line.png" alt="CANCAT tins on the factory conveyor line" loading="lazy"></div>
+          <div class="card-body">
+            <div class="proof-meta"><span>FACTORY LINE</span><span>BATCH #047</span></div>
+            <h3>THE PRODUCTION RUN</h3>
+            <p>Before the shelf, there was the line. Hundreds of identical cans — but only one woke up mid-conveyor and started waving.</p>
+            <strong>VIEW THE PROOF ↗</strong>
+          </div>
+        </a>
+      </div>
+
+      <div class="history-break reveal">
+        <span>BEFORE THE SHELF</span>
+        <div></div>
+        <strong>FACTORY FLOOR · 2018</strong>
+      </div>
+
+      <div class="history-grid">
+        <article class="history-card history-card-image reveal">
+          <a class="history-media" href="#origin">
+            <img src="/assets/origin-factory-line.png"
+                 alt="CANCAT production line illustration"
+                 loading="lazy">
+            <span>ORIGIN STORY ↗</span>
+          </a>
+          <div class="history-content">
+            <p class="proof-meta"><span>FACTORY ARCHIVE</span></p>
+            <h3>WHERE THE CAN WORLD BEGAN</h3>
+            <p>Every CAN CAT starts the same — stamped, labeled, stacked. But batch #047 had something extra: eyes that followed you down the aisle and a wave that never stopped.</p>
+            <p class="clarifier">PRODUCTION ORIGIN · 2018</p>
+            <a href="#origin">SEE THE FACTORY LORE ↗</a>
+          </div>
+        </article>
+
+        <article class="history-card history-card-image reveal">
+          <a class="history-media history-media-detail" href="#lore">
+            <img src="/assets/origin-can-closeup.png"
+                 alt="Detail of the CANCAT label and waving paw"
+                 loading="lazy">
+            <span>THE LABEL ↗</span>
+          </a>
+          <div class="history-content">
+            <p class="proof-meta"><span>LABEL DETAIL</span><span>100% TUNA</span></p>
+            <h3>THE CAN'S OWN ACCOUNT</h3>
+            <p>Premium cat food. Real fish. 100% tuna badge on the left. But the real ingredient was main character energy — packed tight under a pull-tab lid.</p>
+            <p class="clarifier">CAN ARCHIVE · SHELF ERA</p>
+            <a href="#lore">READ THE LORE ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="roadmap section-dark" id="roadmap">
+      <div class="section-heading reveal centered">
+        <span class="section-index">03</span>
+        <p>THE ROADMAP</p>
+        <h2>FROM THE SHELF<br><em>TO EVERY TIMELINE.</em></h2>
+      </div>
+
+      <div class="roadmap-path">
+        <article class="roadmap-step reveal">
+          <span class="paw">I</span>
+          <div>
+            <small>FIND THE CAN</small>
+            <h3>ARCHIVE THE LORE</h3>
+            <p>Save the shelf posts, source the back-row tin, and put the Back-Shelf Can on the timeline.</p>
+          </div>
+        </article>
+
+        <article class="roadmap-step reveal">
+          <span class="paw">II</span>
+          <div>
+            <small>CAN THE CAT</small>
+            <h3>STEP ONCHAIN</h3>
+            <p>Publish the contract and launch links in one place. Keep everything clean and easy to verify.</p>
+          </div>
+        </article>
+
+        <article class="roadmap-step reveal">
+          <span class="paw">III</span>
+          <div>
+            <small>BUILD THE CREW</small>
+            <h3>EXPAND THE UNIVERSE</h3>
+            <p>Memes, community art, new can variants, and whatever the crew opens next.</p>
+          </div>
+        </article>
+
+        <article class="roadmap-step reveal">
+          <span class="paw">IV</span>
+          <div>
+            <small>BREAK THE SHELF</small>
+            <h3>MAKE THE BACK CAN THE MAIN CHARACTER</h3>
+            <p>Take one forgotten tin from a supermarket back row to the rest of the internet.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cast-universe" id="cast">
+      <div class="cast-universe-heading reveal">
+        <p>THE CREW</p>
+        <h2>ONE CAN.<br><em>A WHOLE CREW.</em></h2>
+        <span>One shelf character. Endless internet personalities.</span>
+      </div>
+
+      <div class="cast-universe-grid">
+        <article class="cast-universe-card cast-universe-main reveal">
+          <img
+            src="/assets/cancat-archer-forest.png"
+            alt="CANCAT dressed as an archer in the forest"
+            loading="lazy">
+          <div class="cast-universe-caption">
+            <small>01 · THE ARCHER</small>
+            <h3>AIMING FOR THE TIMELINE.</h3>
+          </div>
+        </article>
+
+        <article class="cast-universe-card cast-universe-light reveal">
+          <img
+            src="/assets/cancat-crying.png"
+            alt="CANCAT crying while still waving"
+            loading="lazy">
+          <div class="cast-universe-caption">
+            <small>02 · DOWN BAD</small>
+            <h3>STILL HERE.<br>STILL WAVING.</h3>
+          </div>
+        </article>
+
+        <article class="cast-universe-card cast-universe-light reveal">
+          <img
+            src="/assets/cancat-outlaw.png"
+            alt="CANCAT wearing a Robin Hood inspired archer outfit"
+            loading="lazy">
+          <div class="cast-universe-caption">
+            <small>03 · THE OUTLAW</small>
+            <h3>BACK TO<br>THE ROOTS.</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="how-to-buy" id="how-to-buy">
+      <div class="buy-cat reveal"><img src="/assets/cancat-loader.png" alt="CANCAT waving"></div>
+
+      <div class="buy-copy">
+        <div class="section-heading reveal">
+          <span class="section-index">04</span>
+          <p>HOW TO BUY</p>
+          <h2>THE CAN IS<br><em>ALMOST OPEN.</em></h2>
+        </div>
+
+        <ol class="buy-steps">
+          <li class="reveal">
+            <span>01</span>
+            <div>
+              <strong>PREPARE YOUR WALLET</strong>
+              <p>Set up a compatible wallet and fund it with the asset required for launch.</p>
+            </div>
+          </li>
+
+          <li class="reveal">
+            <span>02</span>
+            <div>
+              <strong>VERIFY THE CA</strong>
+              <p>The official contract address will be published only on this website and through the official $CANCAT accounts.</p>
+            </div>
+          </li>
+
+          <li class="reveal">
+            <span>03</span>
+            <div>
+              <strong>JOIN THE CREW</strong>
+              <p>Open the official buy link, check the contract one last time, and bring the can onchain.</p>
+            </div>
+          </li>
+        </ol>
+
+        <a class="button button-black button-wide js-buy-link reveal" href="#launch">OFFICIAL BUY LINK AT LAUNCH</a>
+      </div>
+    </section>
+
+    <section class="final-banner">
+      <img src="/assets/cancat-hero.png" alt="CANCAT community shelf mural">
+      <div class="final-overlay">
+        <p>THE SHELF WAS ONLY THE FIRST FRAME</p>
+        <h2>JOIN THE CREW.</h2>
+        <div class="hero-buttons">
+          <a class="button button-lime js-x-link" href="#" target="_blank" rel="noreferrer">FOLLOW ON X</a>
+          <a class="button button-pink js-tg-link" href="#" target="_blank" rel="noreferrer">ENTER TELEGRAM</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <img src="/assets/cancat-logo.png" alt="">
+      <strong>CANCAT</strong>
+    </div>
+
+    <p>$CANCAT is an independent community memecoin created for entertainment and internet culture. It is not affiliated with, endorsed by, or sponsored by any pet food brand, supermarket chain, or manufacturer. Third-party names and references are used only for parody and internet culture documentation. $CANCAT has no intrinsic value or expectation of financial return. Memecoins are highly volatile and may lose all value.</p>
+
+    <div class="footer-links">
+      <a href="#top">BACK TO TOP ↑</a>
+      <span>© <span id="year"></span> CANCAT</span>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite">COPIED</div>
+
+  <script src="/config.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
