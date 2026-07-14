@@ -101,6 +101,9 @@
     'PULL-TAB LEGEND STATUS.',
     'FROM THE SHELF TO YOUR SOUL.',
     'THE CREW APPROVES THIS POP.',
+    'KEEP OPENING. THE PRIZE IS CLOSE. (IT IS NOT.)',
+    'EASTER EGG FOUND. PRIZE PENDING. (FOREVER.)',
+    'YOU ARE SO CLOSE TO THE REWARD. (NO YOU ARE NOT.)',
   ];
   const CAN_POP_PARTICLES = ['🐟', '🥫', '✦', '$CAN', '🐾', 'TUNA', 'POP!'];
 
@@ -180,9 +183,11 @@
     const x = rect.left + rect.width / 2;
     const y = rect.top + rect.height / 2;
     const isJackpot = openCount % 10 === 0;
-    const line = isJackpot
-      ? `JACKPOT! ${openCount} CANS OPENED.`
-      : CAN_POP_LINES[Math.floor(Math.random() * CAN_POP_LINES.length)];
+    const line = openCount === 1
+      ? 'EASTER EGG HUNT STARTED. PRIZE AT THE END. (SPOILER: NO.)'
+      : isJackpot
+        ? `JACKPOT! ${openCount} CANS. STILL NO PRIZE. SORRY.`
+        : CAN_POP_LINES[Math.floor(Math.random() * CAN_POP_LINES.length)];
 
     canPopFab.classList.add('is-popping');
     document.body.classList.add('is-can-shaking');
